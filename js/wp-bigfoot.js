@@ -1,2 +1,3 @@
 $ = jQuery.noConflict();
-$.bigfoot({ actionOriginalFN: "ignore"});
+//$.bigfoot({ actionOriginalFN: "ignore"});
+$.bigfoot();
