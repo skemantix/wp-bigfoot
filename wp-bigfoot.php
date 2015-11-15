@@ -29,6 +29,10 @@ class WP_Bigfoot	{
 		$this->admin_page_init();
 	}
 	
+	function footer() {
+		// call_user_func_array() compliance
+	}
+	
 	function admin_page_init() {
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('bigfoot', plugin_dir_url( __FILE__ ) . 'js/bigfoot.min.js', 'jquery', '1.4.0', true );
